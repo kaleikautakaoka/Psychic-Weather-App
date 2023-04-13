@@ -83,6 +83,15 @@ body {
     background-color: var(--bs-body-color);
 }
 
+.container-fluid {
+    background-color: #f8f9fa;
+    height: 150px;
+}
+
+.container {
+    background-color: lightcyan;
+}
+
 .list-unstyled {
     padding-left: 0;
     list-style: none;
