@@ -2,11 +2,23 @@
 $(document).ready(function () {
   $("#predictBtn").on("click", predictBtn);
 })
+
+const forcastDivAmount = 5;
   
 //Function vars for city, state, country, and set limit for api calls
 function predictBtn(e) {
   e.preventDefault();
   const city = $("#inputCity").val();
+  const dayOne = $("#").val();
+  const dayTwo = $("#").val();
+  const dayThree = $("#").val();
+  const dayFour = $("#").val();
+  const dayFive = $("#").val();
+  const date = $("#").val();
+  const temp = $("#").val();
+  const humidity = $("#").val();
+  const windSpeed = $("#").val();
+
   // const state = $("#inputState").val();
   // const country = $("#inputCountry").val();
   

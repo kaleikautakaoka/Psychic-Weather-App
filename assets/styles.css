@@ -50,7 +50,7 @@
     --bs-body-font-size: 1rem;
     --bs-body-font-weight: 400;
     --bs-body-line-height: 1.5;
-    --bs-body-color: #bdd9f4;
+    --bs-body-color: #1f2a35;
     --bs-body-bg: #fff;
     --bs-border-width: 1px;
     --bs-border-style: solid;
@@ -86,17 +86,17 @@ body {
 }
 
 .container-fluid {
-    background-color: #f8f9fa;
-    height: 150px;
+    height: auto;
+    width: auto;
 }
 
-.container {
+/* .container {
     background-image: url(./images/cloud4cbt.jpg);
     background-repeat: no-repeat;
     max-width: fit-content;
     display: block;
     margin: auto;
-}
+} */
 
 .ms-5 {
     margin-left: 50px !important;
