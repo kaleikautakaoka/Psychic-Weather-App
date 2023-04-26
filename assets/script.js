@@ -9,7 +9,7 @@ const forcastDivAmount = 5;
 function predictBtn(e) {
   e.preventDefault();
   const city = $("#inputCity").val();
-  // const dayOne = $("#").val();
+  const dayOne = $("#").val();
   // const dayTwo = $("#").val();
   // const dayThree = $("#").val();
   // const dayFour = $("#").val();
