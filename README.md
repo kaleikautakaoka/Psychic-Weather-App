@@ -2,11 +2,6 @@
 <tr>
 <td>Psychic Weather App</td>
 </tr>
-## Project URL
-- [https://github.com/kaleikautakaoka/Psychic-Weather-App](https://github.com/kaleikautakaoka/Psychic-Weather-App)
-## Deployment
-- [https://kaleikautakaoka.github.io/Psychic-Weather-App/](https://kaleikautakaoka.github.io/Psychic-Weather-App/)
-## Demo/Screenshot
 <table>
 <tr>
 <td>I created this app to furthur my knowledge of working with API's and gain more experience in javascript and jquery. Although, not complete I learned a lot about making fetch calls and accessing data in objects.</td>
@@ -15,6 +10,12 @@
 <td><img src="./assets/images/weatherapp.png" alt="screenshot of webpage"></td>
 </tr>
 </table>
+
+## Project URL
+- [https://github.com/kaleikautakaoka/Psychic-Weather-App](https://github.com/kaleikautakaoka/Psychic-Weather-App)
+## Deployment
+- [https://kaleikautakaoka.github.io/Psychic-Weather-App/](https://kaleikautakaoka.github.io/Psychic-Weather-App/)
+## Demo/Screenshot
 
 ## Technologies
 
