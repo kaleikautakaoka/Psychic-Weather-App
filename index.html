@@ -25,10 +25,11 @@
           <strong class="fs-4">Your personal crystal ball to the future forecast.</strong>
           <hr>
           <!--Each div has a results container-->
-          <div class="container-fluid rounded" id="result_container">
+          <h4 id="nameCity"></h4>
+          <div class="container-fluid rounded" id="resultContainer">
             <div class="h-100 w-100 p-2 bg-body-tertiary border rounded-3">
               <h2>Current Weather</h2>
-              <p id="currentWeather">Your current weather!</p>
+              <p id="currentWeather"></p>
             </div>
           </div>
         </div>
@@ -57,10 +58,10 @@
     <button type="button" id="predictBtn" class="btn btn-info">Get Forecasted</button>
           <div class="row">
         <div class="row h-25">
-          <div class="card col-md-2">
-            <div class="card-body d-none">
-              <h5 class="card-title">Day 1</h5>
-              <p class="card-text1">Mondays Weather</p>
+          <div class="carxd col-md-2">
+            <div class="card-bodxy Ignore">
+              <h5 class="card-tixtle"></h5>
+              <p class="card-texxt1"></p>
             </div>
           </div>
 </div>
@@ -71,34 +72,45 @@
       <h5 class="card-title">5 Day Weather Forecast</h5>
       <div class="row">
         <div class="row h-25">
+
           <div class="card col-md-2">
-            <div class="card-body-monday">
-              <h5 class="card-title">Day 1</h5>
-              <p class="card-text-monday">Mondays Weather</p>
+            <div class="forecastCards">
+              <h6 class="date"></h6>
+              <p class="card-text-temp"></p>
+              <p class="card-text-wind"></p>
+              <p class="card-text-humidity"></p>
             </div>
           </div>
           <div class="card col-md-2">
-            <div class="card-body">
-              <h5 class="card-title">Day 2</h5>
-              <p class="card-text">Following weather data
+            <div class="forecastCards">
+              <h6 class="date"></h6>
+              <p class="card-text-temp"></p>
+              <p class="card-text-wind"></p>
+              <p class="card-text-humidity"></p>
             </div>
           </div>
           <div class="card col-md-2">
-            <div class="card-body">
-              <h5 class="card-title">Day 3</h5>
-              <p class="card-text">Following weather data
+            <div class="forecastCards">
+              <h6 class="date"></h6>
+              <p class="card-text-temp"></p>
+              <p class="card-text-wind"></p>
+              <p class="card-text-humidity"></p>
             </div>
           </div>
           <div class="card col-md-2">
-            <div class="card-body">
-              <h5 class="card-title">Day 4</h5>
-              <p class="card-text">Following weather data
+            <div class="forecastCards">
+              <h6 class="date"></h6>
+              <p class="card-text-temp"></p>
+              <p class="card-text-wind"></p>
+             <p class="card-text-humidity"></p>
             </div>
           </div>
           <div class="card col-md-2">
-            <div class="card-body">
-              <h5 class="card-title">Day 5</h5>
-              <p class="card-text">Following weather data
+            <div class="forecastCards">
+              <h6 class="date"></h6>
+              <p class="card-text-temp"></p>
+              <p class="card-text-wind"></p>
+              <p class="card-text-humidity"></p>
             </div>
           </div>
         </section>
@@ -106,6 +118,7 @@
     <!--Script tags-->
     <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"
       integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./assets/script.js"></script>
 </body>
 
